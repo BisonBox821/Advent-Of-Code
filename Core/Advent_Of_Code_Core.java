@@ -5,10 +5,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public abstract class Advent_Of_Code_Core {
-    public Advent_Of_Code_Core(int year, String day){
+    public Advent_Of_Code_Core(int year, int day){
         BufferedReader reader;
         List<String> lines = new ArrayList<>();
-        File file = new File("inputs/"+year+"/day"+day+".txt");
+        File file = new File("Year_"+year+"/inputs/Day"+day+".txt");
         try {
             reader = new BufferedReader(new FileReader(file));
         }
