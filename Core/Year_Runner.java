@@ -1,6 +1,7 @@
 package Core;
 
 import Year_2020.Day_Runner_2020;
+import Year_2024.Day_Runner_2024;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -28,7 +29,10 @@ public class Year_Runner {
         else{
             switch (year){
                 case 2020:
-                    Day_Runner_2020 Year_XX = new Day_Runner_2020(day);
+                    Day_Runner_2020 Year_20 = new Day_Runner_2020(day);
+                    break;
+                case 2024:
+                    Day_Runner_2024 Year_24 = new Day_Runner_2024(day);
                     break;
                 default:
                     System.err.println("No code for year: " + year);

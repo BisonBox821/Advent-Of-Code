@@ -30,4 +30,12 @@ public abstract class Advent_Of_Code_Core {
         solve(lines);
     }
     public abstract void solve(List<String> inputs);
+
+    public String[] convertToStringArray(List<String> inputs){
+        String[] arr = new String[inputs.size()];
+        for(int i = 0; i<arr.length; i++){
+            arr[i] = inputs.get(i);
+        }
+        return arr;
+    }
 }
