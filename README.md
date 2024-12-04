@@ -6,3 +6,4 @@ Included Challenges:
 	Advent of Code 2022
 	Advent of Code 2023
 	Advent of Code 2024
+I am in the prosses of pulling all code onto this repo.
